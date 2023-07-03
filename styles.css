@@ -111,13 +111,14 @@ button{
 .cards{
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
+    padding-left: 100px;
 }
 
 .card{
     display: flex;
     flex-direction: column;
-    max-width: 150px;
+    max-width: 160px;
     gap: 10px;
     text-align: center;
     font-size: 16px;
