@@ -95,17 +95,23 @@ button{
     padding: 7px 32px;
 }
 
+
 .section2 h4{
     font-size: 36px;
     font-weight: 1000;
     color: #1F2937;
 }
 
+.section2 {
+    height: 500px;
+}
+
 .section2 .title{
     display: flex;
     width: 100%;
     justify-content: center;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .cards{
@@ -132,4 +138,35 @@ button{
     width: 150px;
     border-color: #3883F6;
     border-radius: 20px;
+}
+
+.section3{
+    background-color: #e5e7eb;
+    font-size: 36px;
+
+}
+
+.section3 .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: 175px 87.5px;
+}
+
+.container p{
+    flex: 1;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    
+}
+
+.section3 h5{
+    font-size: 22px;
+    color: #202020;
+    align-self: flex-end;
+    margin-right: 5%;
 }
