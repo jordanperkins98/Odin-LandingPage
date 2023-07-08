@@ -78,7 +78,7 @@ nav{
     margin: 0;
 }
 
-button{
+.cta-button{
     background-color: transparent;
     border: none;
     margin: 0;
@@ -169,4 +169,62 @@ button{
     color: #202020;
     align-self: flex-end;
     margin-right: 5%;
+}
+
+.cta{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-item{
+    background-color: #3883F6;
+    max-width: 70%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    color: #F9FAF8;
+    padding: 10px;
+    flex: 1;
+    border-radius: 8px;
+    font-size: 20px;
+   
+}
+
+.cta-item h4{
+    font-size: 24px;
+}
+
+
+
+.cta-button2{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #F9FAF8;
+    border-radius: 8px;
+    margin-top: 10px;
+    appearance: none; 
+    background-color: #3883F6;
+    display: flex;
+    padding: 7px 32px;
+    border: solid;
+    border-width: 2px;
+    margin-bottom: 20px;
+    transform: scale(1.1);
+}
+
+.copyright{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 20px;
 }
